@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
     <style>
         body {
@@ -27,9 +28,9 @@
         }
 
         .images a img {
-            width: 150px; /* Ajuste conforme necessário */
+            width: 150px;
             height: auto;
-            border-radius: 10px; /* Deixa as bordas arredondadas */
+            border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.2s, box-shadow 0.2s;
         }
@@ -43,9 +44,9 @@
 <body>
     <h1>Escolha uma classe</h1>
     <div class="images">
-        <a href="guia1.php"><img src="cordas.jpg" alt="Cordas"></a>
-        <a href="guia2.php"><img src="metais.jpg" alt="Metais"></a>
-        <a href="guia3.php"><img src="madeiras.jpg" alt="Madeiras"></a>
+        <a href="guia1.html"><img src="cordas.jpg" alt="Cordas"></a>
+        <a href="guia2.html"><img src="metais.jpg" alt="Metais"></a>
+        <a href="guia3.html"><img src="madeiras.jpg" alt="Madeiras"></a>
     </div>
 </body>
 </html>
